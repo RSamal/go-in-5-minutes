@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/arschles/go-in-5-minutes/episode13/pkg"
+	"github.com/arschles/go-in-5-minutes/episode16/pkg"
 )
 
 func checkAndPrint(i, j int) {
