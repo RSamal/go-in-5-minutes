@@ -8,9 +8,9 @@ This screencast shows some advanced uses of the [`net/http`](https://godoc.org/n
 
 Screencast video: TODO
 
-# Other Notes
+# Reminder
 
-- If you're in the SF bay area, see my (free) talk on Go at [Silicon Valley Code Camp 2016](https://www.siliconvalley-codecamp.com/Session/2016/programming-pearls-of-go---how-to-write-fast-beautiful-go-code)! It's:
+Don't forget to follow [follow on Twitter](https://twitter.com/goin5minutes) and [subscribe to the mailing list](https://www.goin5minutes.com/subscribe/)!
 
 # Outline
 

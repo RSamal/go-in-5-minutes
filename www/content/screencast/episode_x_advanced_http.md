@@ -11,11 +11,12 @@ We show how to write HTTP servers (using the [`net/http`](https://godoc.org/net/
 
 You may have written a simple application server or REST API server in Go. This screencast will level up your `net/http`-fu!
 
+<!--more-->
+
 ## Reminder
 
 Don't forget to follow [follow on Twitter](https://twitter.com/goin5minutes) and [subscribe to the mailing list](https://www.goin5minutes.com/subscribe/)!
 
-<!--more-->
 
 _note: Change the last path element (after `/embed`) to be the new YouTube video ID_
 
