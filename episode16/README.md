@@ -14,5 +14,6 @@ Don't forget to follow [follow on Twitter](https://twitter.com/goin5minutes) and
 
 # Outline
 
+1. What's beyond simple request/response?
 1. [`http.Flusher`](https://godoc.org/net/http#Flusher)
 1. [`ctxhttp`](https://godoc.org/golang.org/x/net/context/ctxhttp)
