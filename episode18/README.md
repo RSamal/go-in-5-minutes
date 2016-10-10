@@ -6,7 +6,7 @@ This screencast shows some advanced uses of the [`net/http`](https://godoc.org/n
 
 # Reminder
 
-Don't forget to follow [follow on Twitter](https://twitter.com/goin5minutes) and [subscribe to the mailing list](https://www.goin5minutes.com/subscribe/)!
+Don't forget to follow on Twitter (https://twitter.com/goin5minutes) and subscribe to the mailing list (https://www.goin5minutes.com/subscribe/).
 
 # Outline
 
