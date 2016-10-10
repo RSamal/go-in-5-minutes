@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"io"
 	"log"
 	"net/http"
@@ -15,7 +16,7 @@ const (
 	urlKey            = "url"
 	defaultURLString  = "https://www.goin5minutes.com"
 	timeoutKey        = "timeout"
-	defaultTimeoutSec = 1
+	defaultTimeoutSec = 0
 )
 
 func getTimeout(def time.Duration, r *http.Request) time.Duration {
@@ -51,8 +52,9 @@ func client(ctx context.Context, cl *http.Client) http.Handler {
 		// execute the request. the request will be cancelled after timeout, even if the client's transport timeout has not been exceeded.
 		resp, err := ctxhttp.Do(timeoutCtx, cl, req)
 		if err != nil {
-			log.Printf("error making request for %s (%s)", urlStr, err)
-			http.Error(w, "error making request", http.StatusInternalServerError)
+			errStr := fmt.Sprintf("error making request for %s (%s)", urlStr, err)
+			log.Println(errStr)
+			http.Error(w, errStr, http.StatusInternalServerError)
 			return
 		}
 		defer resp.Body.Close()
