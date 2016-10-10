@@ -2,7 +2,7 @@
 
 Go in 5 Minutes, episode 18.
 
-This screencast shows some advanced uses of the [`net/http`](https://godoc.org/net/http) package.
+This screencast shows some advanced uses of the [`net/http`](https://godoc.org/net/http) package. It covers some of the content requested in https://github.com/arschles/go-in-5-minutes/issues/26.
 
 # Reminder
 
