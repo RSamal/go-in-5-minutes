@@ -1,12 +1,8 @@
 # Advanced `net/http`, Part 1
 
-TODO: [![Watch The Screencast](TODO)
-
-Go in 5 Minutes, episode 16.
+Go in 5 Minutes, episode 18.
 
 This screencast shows some advanced uses of the [`net/http`](https://godoc.org/net/http) package.
-
-Screencast video: TODO
 
 # Reminder
 
